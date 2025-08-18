@@ -92,3 +92,22 @@
     
     /* margin-top: 14px; */
 }
+
+.category-services {
+    width: 1228px;
+    height: 525px;
+    margin-top: 20px;
+    display: flex;
+    flex-direction: row;
+}
+
+.category-service-box {
+    width: 190px;
+    height: 227px;
+    border: 1px solid black;
+    border-radius: 15px;
+}
+
+.category-service-box-text {
+    
+}

@@ -1,5 +1,6 @@
 import './Home.css';
 import play from '../assets/play-icon.png'; // Adjust the path as necessary
+import CategoryServices from './CategoryServices';
 
 const Home = () => {
     return(
@@ -12,10 +13,7 @@ const Home = () => {
                 <div className='button-container'>  
              <div className='find-out-more-container'>
                 <p className='find-out-more-text'>Find out more</p>
-                
              </div>
-             
-
              <div className='playdemo-button'> 
                 <img src={play} alt='playbutton' className='play-icon'/>
                 <div className='playdemo-text'>
@@ -24,6 +22,12 @@ const Home = () => {
              </div>
                 
              </div>
+             <div className='category-services'>
+                <div className='category-service-box'>
+                   <p className='category-service-box-text'>calculated Weather</p>
+                </div>
+                
+            </div>
              
             {/* <div className='heading-container'>
                 <div className='subheading-container'>

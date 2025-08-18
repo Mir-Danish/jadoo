@@ -27,7 +27,7 @@
 .navbar-links {
     display: flex;
     align-items: center;
-    margin-left: 50rem;
+    margin-left: 25rem;
 }
 
 .logoimage {
@@ -36,3 +36,4 @@
     height: 40px;
     align-items: center;
 }
+
