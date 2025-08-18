@@ -1,0 +1,40 @@
+import './Home.css';
+import play from '../assets/play-icon.png'; // Adjust the path as necessary
+
+const Home = () => {
+    return(
+        <div className="main-container">
+            <p className='heading-text'>BEST DESTINATIONS AROUND THE WORLD</p>
+             <p className='subheading-text'>Travel, enjoy and live a new and full life</p>  
+             <p className='description-text'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
+
+
+                <div className='button-container'>  
+             <div className='find-out-more-container'>
+                <p className='find-out-more-text'>Find out more</p>
+                
+             </div>
+             
+
+             <div className='playdemo-button'> 
+                <img src={play} alt='playbutton' className='play-icon'/>
+                <div className='playdemo-text'>
+                    <p className='playdemo-text-line'>Play Demo</p>
+                </div>
+             </div>
+                
+             </div>
+             
+            {/* <div className='heading-container'>
+                <div className='subheading-container'>
+                <div className='description-container'>
+            </div>
+           </div>
+            </div> */}
+
+           
+        </div>
+    )
+}
+
+export default Home;
