@@ -106,8 +106,18 @@
     height: 227px;
     border: 1px solid black;
     border-radius: 15px;
+    margin-top: 25px;
 }
 
 .category-service-box-text {
-    
+    font-family: monospace;
+    font-weight: 600;
+    font-size: 17px;
+}
+
+
+.category-service-box-description {
+    font-family: cursive;
+    font-family: 600;
+    font-size: 16px;
 }
