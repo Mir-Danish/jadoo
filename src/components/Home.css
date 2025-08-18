@@ -99,9 +99,11 @@
     margin-top: 20px;
     display: flex;
     flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
 }
 
-.category-service-box {
+.category-service-box1 {
     width: 190px;
     height: 227px;
     border: 1px solid black;
@@ -120,4 +122,11 @@
     font-family: cursive;
     font-family: 600;
     font-size: 16px;
+}
+
+.category-service-box2 {
+    width: 267px;
+    height: 314px;
+    border: 1px solid black;
+    border-radius: 15px;
 }

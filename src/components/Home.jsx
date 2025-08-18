@@ -23,8 +23,14 @@ const Home = () => {
                 
              </div>
              <div className='category-services'>
-                <div className='category-service-box'>
+                <div className='category-service-box1'>
                    <p className='category-service-box-text'>Calculated Weather</p>
+                   <p className='category-service-box-description'>Built Wicket longer admire do barton vanity itself do in it.</p>
+
+                </div>
+
+                <div className='category-service-box2'>
+                   <p className='category-service-box-text'>Weather Forecast</p>
                    <p className='category-service-box-description'>Built Wicket longer admire do barton vanity itself do in it.</p>
                 </div>
                 
