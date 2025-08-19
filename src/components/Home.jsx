@@ -33,6 +33,16 @@ const Home = () => {
                    <p className='category-service-box-text'>Weather Forecast</p>
                    <p className='category-service-box-description'>Built Wicket longer admire do barton vanity itself do in it.</p>
                 </div>
+
+                 <div className='category-service-box3'>
+                   <p className='category-service-box-text'>Weather Forecast</p>
+                   <p className='category-service-box-description'>Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
+
+                <div className='category-service-box4'>
+                   <p className='category-service-box-text'>Weather Forecast</p>
+                   <p className='category-service-box-description'>Built Wicket longer admire do barton vanity itself do in it.</p>
+                </div>
                 
             </div>
              
