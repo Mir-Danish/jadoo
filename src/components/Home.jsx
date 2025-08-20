@@ -22,6 +22,9 @@ const Home = () => {
              </div>
                 
              </div>
+
+
+            
              <div className='category-services'>
                 <div className='category-service-box1'>
                    <p className='category-service-box-text'>Calculated Weather</p>
@@ -44,6 +47,13 @@ const Home = () => {
                    <p className='category-service-box-description'>We deliver outsourcedaviation services for military customers</p>
                 </div>
                 
+            </div>
+
+
+            <div className='destinations-category'>
+           <div className='destinations-category-heading'>
+                  <p className='destinations-heading-text'>Top Destinations</p>
+            </div>
             </div>
              
             {/* <div className='heading-container'>

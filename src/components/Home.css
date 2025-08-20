@@ -144,3 +144,25 @@
     border: 1px solid black;
     border-radius: 15px;
 }
+
+.destinations-category {
+    width: 1102px;
+    height: 617px;
+    border: 1px solid black;
+    /* display: flex;
+    align-items: center; */
+}
+
+.destinations-category-heading{
+    /* width: 418px; */
+    height: 65px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.destinations-heading-text{
+    font-family: volkhov;
+    font-weight: bold;
+    font-size: 45px;
+}
