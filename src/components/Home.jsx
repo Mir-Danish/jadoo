@@ -1,6 +1,7 @@
 import './Home.css';
 import play from '../assets/play-icon.png'; // Adjust the path as necessary
 import CategoryServices from './CategoryServices';
+import DestinationCategory from './DestinationCategory';
 
 const Home = () => {
     return(
@@ -50,11 +51,9 @@ const Home = () => {
             </div>
 
 
-            <div className='destinations-category'>
-           <div className='destinations-category-heading'>
-                  <p className='destinations-heading-text'>Top Destinations</p>
-            </div>
-            </div>
+               <DestinationCategory />
+
+            
              
             {/* <div className='heading-container'>
                 <div className='subheading-container'>
