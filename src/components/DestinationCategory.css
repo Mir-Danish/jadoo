@@ -101,3 +101,35 @@
     font-weight: 500;
 }
 
+.book-container-side2{
+    width: 485px;
+    height: 400px;
+    background: transparent;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   /* background: yellow; */
+}
+
+.book-container-card {
+    width: 335px;
+    height: 400px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 40px;
+    border-radius: 15px;
+       overflow: hidden;
+       background: whitesmoke;
+       /* animation: 5px; */
+}
+
+.book-container-image{
+    width: 321px;
+    height: 161px;
+    border-radius: 15px;
+    object-fit: cover; 
+}

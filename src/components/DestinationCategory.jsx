@@ -54,6 +54,14 @@ const DestinationCategory = () => {
                     </div>
                   </div>
               </div>
+
+              <div className='book-container-side2'>
+                <div className='book-container-card'>
+                <img className='book-container-image' src="https://cdn.pixabay.com/photo/2016/11/19/10/30/beach-1838501_960_720.jpg" alt=''  />
+                <p>Trip to Greece</p>
+                <p>14-29 June</p>
+                </div>
+              </div>
             </div>
 
             </>
