@@ -64,6 +64,18 @@ const DestinationCategory = () => {
               </div>
             </div>
 
+
+            <div className='testimonial'>
+      <div className='testimonial-heading-box'>
+      <p className='testimonial-heading'>What people say
+about Us.</p>
+      </div>
+
+      <div className='testimonial-boxes1'>
+        <p className='testimonial-boxes1-text'>“On the Windows talking painted pasture yet its express parties use. Sure last upon he same as knew next. Of believed or diverted no.”</p>
+      </div>
+    </div>
+
             </>
   )
 }

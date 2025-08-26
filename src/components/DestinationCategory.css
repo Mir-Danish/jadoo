@@ -133,3 +133,39 @@
     border-radius: 15px;
     object-fit: cover; 
 }
+
+.testimonial {
+    width: 1165px;
+    height: 356px;
+    border: 1px solid black;
+    margin-top: 30px;
+    margin-left: 5%;
+    margin-right: 6%;
+    display: flex;
+    flex-direction: row;
+
+}
+
+.testimonial-heading-box{
+    width: 409px;
+    height: 130px;
+    margin-top: 65px;
+}
+
+.testimonial-heading{
+    font-family: volkhov;
+    font-weight: bold;
+    font-size: 50px;
+}
+
+
+.testimonial-boxes1{
+    width: 541px;
+    height: 279px;
+}
+
+.testimonial-boxes1-text {
+    font-family: Poppins;
+    font-size: 16px;
+    font-weight: Medium;
+}
