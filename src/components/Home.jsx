@@ -3,15 +3,21 @@ import play from '../assets/play-icon.png'; // Adjust the path as necessary
 import CategoryServices from './CategoryServices';
 import DestinationCategory from './DestinationCategory';
 import Testimonial from './Testimonial';
-
+import backgroundImage from "../assets/5.png";
 const Home = () => {
+   const style = {
+      backgroundImage: `url($(backgroundImage})`,
+      height: '100vh', 
+      backgroundSize: 'cover',
+      backgrondRepeat: 'no-repeat',
+   }
+
     return(
+      // 
         <div className="main-container">
             <p className='heading-text'>BEST DESTINATIONS AROUND THE WORLD</p>
              <p className='subheading-text'>Travel, enjoy and live a new and full life</p>  
              <p className='description-text'>Built Wicket longer admire do barton vanity itself do in it. Preferred to sportsmen it engrossed listening. Park gate sell they west hard for the.</p>
-
-
                 <div className='button-container'>  
              <div className='find-out-more-container'>
                 <p className='find-out-more-text'>Find out more</p>
@@ -22,11 +28,10 @@ const Home = () => {
                     <p className='playdemo-text-line'>Play Demo</p>
                 </div>
              </div>
-                
+             
+      
              </div>
 
-
-            
              <div className='category-services'>
                 <div className='category-service-box1'>
                    <p className='category-service-box-text'>Calculated Weather</p>
